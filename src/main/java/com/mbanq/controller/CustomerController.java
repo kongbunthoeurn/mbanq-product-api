@@ -20,7 +20,11 @@ public class CustomerController {
 	ResponseEntity<Map<String, String>> list_customer(){
 		Map<String, String> maps=new HashMap<String, String>();
 		maps.put("S1", "Hello");
+<<<<<<< HEAD
 		maps.put("S2", "Hello2");
+=======
+		maps.put("S2", "Hello1");
+>>>>>>> ce1a3f12246f0e1119a0e5bb18044c15fc3868c4
 		return new ResponseEntity<Map<String,String>>(maps, HttpStatus.OK);
 	}
 }
